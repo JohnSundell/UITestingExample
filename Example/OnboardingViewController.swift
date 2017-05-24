@@ -110,6 +110,6 @@ private extension OnboardingViewController {
 
 private extension UIView {
     func activateConstraints(_ constraints: NSLayoutConstraint...) {
-		NSLayoutConstraint.activate(constraints)
+        NSLayoutConstraint.activate(constraints)
     }
 }
