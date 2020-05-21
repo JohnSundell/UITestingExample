@@ -18,6 +18,7 @@ final class MainViewController: UIViewController {
 
         if !userDefaults.onboardingCompleted {
             let onboardingVC = OnboardingViewController()
+            onboardingVC.modalPresentationStyle = .fullScreen
             present(onboardingVC, animated: false)
         }
     }
